@@ -35,10 +35,10 @@ Explantion:
 		c. Fill the details of Phone Number and Message text
 
 	v.  created the darg_an_email(Defination) to perform all the below operations
-	
-		a. Drag component “Send an email” from the left module and join line from “Not sent” output port.Also fill all the                           details of the mail
+		a. Drag component “Send an email” from the left module and join line from “Not sent” output port.
+		b. Also fill all the details of the mail
 
-       vi. created the exit_app_sent_sms(Defination) to perform all the below operations
+        vi. created the exit_app_sent_sms(Defination) to perform all the below operations
 	
 		a. Click on component “Basic” on left Module and drag “Exit App” joining to “Sent” output port of Sent an sms  box
 	

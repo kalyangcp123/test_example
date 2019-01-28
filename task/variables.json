@@ -10,5 +10,5 @@
     "from":"abc@gmail.com",
     "to":"xyz@gmail.com",
     "Subject":"SMS Not Sent",
-    "sendanemailmsgtextvariable":"SMS to phone no 123456789 not sent"
+    "sendanemailmsgtextvariable":"SMS to phone no 1234567890 not sent"
   }

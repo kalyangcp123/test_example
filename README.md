@@ -49,4 +49,4 @@ Explantion:
 	
 	viii. Created the shut_down(Defination) to close the open browser in the first step
 
-5. In the task.py(Main File) , i have created the object to that class and I have called all the definations to perfom our scenario.
+5. In the task.py(Main File) , i have created the object to that class and I have called all the definations to perfom the scenario.

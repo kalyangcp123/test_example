@@ -38,7 +38,7 @@ Explantion:
 	
 		a. Drag component “Send an email” from the left module and join line from “Not sent” output port.Also fill all the details of the mail
 
-        vi. created the exit_app_sent_sms(Defination) to perform all the below operations
+       vi. created the exit_app_sent_sms(Defination) to perform all the below operations
 	
 		a. Click on component “Basic” on left Module and drag “Exit App” joining to “Sent” output port of Sent an sms  box
 	
@@ -48,4 +48,4 @@ Explantion:
 	
 	viii. Created the shut_down(Defination) to close the open browser in the first step
 
-5. In the task.py(Main File) , i have created the object to that class and i have called all the definations to perfom our scenario.
+5. In the task.py(Main File) , i have created the object to that class and I have called all the definations to perfom our scenario.

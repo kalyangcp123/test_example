@@ -1,4 +1,4 @@
 # test_example
 
 To Run the file :
-python task.py 
+python <add-path>\task.py 

@@ -1,4 +1,5 @@
 # test_example
 
 To Run the file :
-python task.py 
+python name of the file .py (eg: python task.py)
+

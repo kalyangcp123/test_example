@@ -64,11 +64,11 @@ class Task():
 			node1 = self.driver.find_element_by_xpath(startbuttonsource)
 			node2 = self.driver.find_element_by_xpath(sendansmsdestinationnotsent)
 			ActionChains(self.driver).drag_and_drop(node1,node2).perform()
-			time.sleep(2)
+			self.webactions.UsingMyBrain()
 			self.driver.find_element_by_xpath(phonenumberinput).send_keys(conf['sendphonenumber'])
-			time.sleep(2)
+			self.webactions.UsingMyBrain()
 			self.driver.find_element_by_xpath(messagetextvariableinput).send_keys(conf['sendmessagetext'])
-			time.sleep(2)
+			self.webactions.UsingMyBrain()
 		except Exception as e:
 			raise
 

@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: ascii -*-
+#coding: latin-1
 import os
 import time
 import json
@@ -33,9 +34,9 @@ class Task():
 
 	def create_app(self):
 		'''
-			2. Click on Create an App
-			3. You will land up on default page and then click “Lets" get started
-			4. Create a new page and give it a name
+			Click on Create an App
+			You will land up on default page and then click Lets get started
+			Create a new page and give it a name
 		'''
 		try:
 			self.driver.find_element_by_xpath(createappButton).click()
@@ -52,9 +53,9 @@ class Task():
 
 	def messaging(self):
 		'''
-			5. Click on “Messaging” group appearing on the left pane under MODULES
-			6. Drag component “Send an SMS” to the main app page & join the line from start acting as connector
-			7. Fill the details of Phone Number and Message text
+			Click on Messaging group appearing on the left pane under MODULES
+			Drag component Send an SMS to the main app page and join the line from start acting as connector
+			Fill the details of Phone Number and Message text
 
 		'''
 		try:
@@ -76,7 +77,7 @@ class Task():
 
 	def darg_an_email(self):
 		'''
-			8. Drag component “Send an email” from the left module and join line from “Not sent” output port.Also fill all the details of the mail as shown
+			Drag component Send an email from the left module and join line from Not sent output port.Also fill all the details of the mail as shown
 		'''
 		try:
 			source_element = self.driver.find_element_by_xpath(sendanemaildrag)
@@ -102,7 +103,7 @@ class Task():
 
 	def exit_app_sent_sms(self):
 		'''
-			9.Click on component “Basic” on left Module and drag “Exit App” joining to “Sent” output port of Sent an sms  box
+			Click on component Basic on left Module and drag Exit App joining to Sent output port of Sent an sms box
 		'''
 		try:
 			self.driver.find_element_by_xpath(basicbutton).click()
@@ -120,7 +121,7 @@ class Task():
 
 	def exit_app_email(self,params):
 		'''
-			#10. Similarly, Join all the open output ports of “Send an Email” to Exit app by dragging
+			Similarly Join all the open output ports of Send an Email to Exit app by dragging
 		'''
 		try:
 			source_element = self.driver.find_element_by_xpath(hanguporexit)

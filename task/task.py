@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: ascii -*-
 import os
 import time
 import json

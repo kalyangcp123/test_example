@@ -32,7 +32,7 @@ class Task():
 	def create_app(self):
 		'''
 			2. Click on Create an App
-			3. You will land up on default page and then click “Lets’ get started
+			3. You will land up on default page and then click “Lets" get started
 			4. Create a new page and give it a name
 		'''
 		try:
